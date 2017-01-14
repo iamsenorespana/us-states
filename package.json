@@ -1,0 +1,51 @@
+{
+  "name": "civil-services-us-states",
+  "version": "1.0.0",
+  "description": "United States Data, State Flags, State Seals, Maps & Landscape / Skyline Background Images ( JSON, XML, CSV, SQL & YML formats )",
+  "license": "MIT",
+  "keywords": [
+    "US",
+    "United States",
+    "data",
+    "json",
+    "csv",
+    "yml",
+    "sql",
+    "xml",
+    "xlsx",
+    "headshots",
+    "pictures",
+    "photos",
+    "landscape",
+    "skyline",
+    "map"
+  ],
+  "main": "data/senate.json",
+  "homepage": "https://civilserviceusa.github.io/us-states/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/civilserviceusa/us-states.git"
+  },
+  "bugs": {
+    "url": "https://github.com/civilserviceusa/us-states/issues"
+  },
+  "author": {
+    "name": "Peter Schmalfeldt",
+    "email": "me@peterschmalfeldt.com",
+    "url": "https://peterschmalfeldt.com"
+  },
+  "scripts": {
+    "json-to-yml": "./node_modules/.bin/json2yaml ./data/states.json > ./data/states.yml && echo '✓ updated data/states.yml'",
+    "json-to-csv": "./node_modules/.bin/json2csv -i ./data/states.json -o ./data/states.csv && echo '✓ updated data/states.csv'",
+    "json-to-xml": "node ./converters/json-to-xml.js && echo '✓ updated data/states.xml'",
+    "csv-to-sql": "node ./converters/csv-to-sql.js && echo '✓ updated data/states.sql'",
+    "convert": "npm run -s json-to-yml && npm run -s json-to-xml && npm run -s json-to-csv && npm run -s csv-to-sql && echo '\n☆ヽ(´▽｀)ノ All Done \n'"
+  },
+  "devDependencies": {
+    "js2xmlparser": "^2.0.2",
+    "json2csv": "^3.7.3",
+    "json2yaml": "^1.1.0",
+    "object.values": "^1.0.4",
+    "stream-replace": "^1.0.0"
+  }
+}
