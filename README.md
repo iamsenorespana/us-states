@@ -40,7 +40,7 @@ __Sample Image__
 
 ![New York](images/backgrounds/640x360/skyline/new-york.jpg "New York")
 
-__NOTE:__  "All images were optimized for a balance in quality and file size.
+__NOTE:__  All images were optimized for a balance in quality and file size.
 
 State Flag Images
 ---
@@ -56,7 +56,7 @@ __Sample Image__
 
 ![Idaho](images/flags/idaho-large.png "Idaho")
 
-__NOTE:__  "All images were optimized for a balance in quality and file size.
+__NOTE:__  All images were optimized for a balance in quality and file size.
 
 
 State Seal Images
@@ -73,7 +73,7 @@ __Sample Image__
 
 ![California](images/seals/california-large.png "California")
 
-__NOTE:__  "All images were optimized for a balance in quality and file size.
+__NOTE:__  All images were optimized for a balance in quality and file size.
 
 
 State Map Images
@@ -90,7 +90,7 @@ __Sample Image__
 
 ![Idaho](images/maps/delaware-large.png "Idaho")
 
-__NOTE:__  "All images were optimized for a balance in quality and file size.
+__NOTE:__  All images were optimized for a balance in quality and file size.
 
 
 CDN Image Usage
